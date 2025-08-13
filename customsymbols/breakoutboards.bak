@@ -791,14 +791,6 @@
 					(type none)
 				)
 			)
-			(text "https://www.best-microcontroller-projects.com/tp4056.html\nfor a very good guide on how to use it\n"
-				(at 0.762 26.416 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(pin power_out line
 				(at -6.35 -12.7 90)
 				(length 2.54)

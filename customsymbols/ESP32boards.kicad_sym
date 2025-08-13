@@ -224,42 +224,6 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 17.78 0)
-				(length 5.08)
-				(name "VP"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -15.24 15.24 0)
-				(length 5.08)
-				(name "VN"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
 				(at -15.24 2.54 0)
 				(length 5.08)
 				(name "D2"
@@ -493,42 +457,6 @@
 					)
 				)
 			)
-			(pin input line
-				(at 15.24 10.16 180)
-				(length 5.08)
-				(name "RX2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 15.24 7.62 180)
-				(length 5.08)
-				(name "TX2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at 15.24 2.54 180)
 				(length 5.08)
@@ -720,6 +648,80 @@
 					)
 				)
 				(number "29"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ESP32-DEVKIT-V1_1_0"
+			(pin input line
+				(at -15.24 17.78 0)
+				(length 5.08)
+				(name "VP"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 15.24 0)
+				(length 5.08)
+				(name "VN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 15.24 10.16 180)
+				(length 5.08)
+				(name "RX2-D16"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 15.24 7.62 180)
+				(length 5.08)
+				(name "TX2-D17"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
 					(effects
 						(font
 							(size 1.016 1.016)

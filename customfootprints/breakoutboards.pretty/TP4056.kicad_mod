@@ -1,0 +1,220 @@
+(footprint "TP4056"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -16.764 7.866 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d45017ac-f277-4598-9ab8-59cfa5eda91c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TP4056"
+		(at -16.764 6.366 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b379439b-0a97-4a61-b6cd-c12e8e8960ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00d58938-2f18-4645-b78b-4aa6687e5597")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38a9c062-5f73-497a-9e8b-fbcf503734d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -27.94 0)
+		(end -27.94 1.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "da62b524-b256-499d-b97c-fe68a55a80e6")
+	)
+	(fp_line
+		(start -27.94 1.27)
+		(end -26.67 2.794)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c97152f3-d0b6-4e7e-a013-cb9ccd5a9824")
+	)
+	(fp_line
+		(start -27.94 15.494)
+		(end -26.67 14.224)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "af28ed15-9e89-46a0-974a-f6bc5d6d17f1")
+	)
+	(fp_line
+		(start -27.94 17.018)
+		(end -27.94 15.494)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8817f036-2b6a-4950-aef2-46254f46e71f")
+	)
+	(fp_line
+		(start -27.94 17.018)
+		(end 0 17.018)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ef37a31e-26b4-4862-a375-7502395089c3")
+	)
+	(fp_line
+		(start -26.67 2.794)
+		(end -26.67 14.224)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3e005c03-06e1-43ee-9194-9ad7592b2e71")
+	)
+	(fp_line
+		(start 0 0)
+		(end -27.94 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5ba164b2-7d10-4411-9a40-d479ed4361ff")
+	)
+	(fp_line
+		(start 0 17.018)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5f12db93-2c14-4959-98e8-0aa099e4dbed")
+	)
+	(fp_rect
+		(start -6.858 3.048)
+		(end 1.524 12.954)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4851dc36-7e50-4291-b10c-50f171df42eb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -16.764 4.866 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "abb6b537-bfbe-4b7a-80f6-c42a0f01c49c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -1.524 1.27 90)
+		(size 2.54 2.54)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7eba68c6-2f28-47ee-9fc6-368bb28365c7")
+	)
+	(pad "2" thru_hole circle
+		(at -1.524 15.494 90)
+		(size 2.54 2.54)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2a0698e2-8d73-4036-9381-999d9e490048")
+	)
+	(pad "3" thru_hole circle
+		(at -24.892 1.27 90)
+		(size 2.54 2.54)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d98cabd0-6255-4f10-95ef-405162e7dd19")
+	)
+	(pad "4" thru_hole circle
+		(at -24.892 4.826 90)
+		(size 2.54 2.54)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c7416a67-6e2c-4baa-aacb-3c1c5cc5d110")
+	)
+	(pad "5" thru_hole circle
+		(at -24.892 12.192 90)
+		(size 2.54 2.54)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fcea084d-d357-4fd7-941e-e8e5b9424183")
+	)
+	(pad "6" thru_hole circle
+		(at -24.892 15.494 90)
+		(size 2.54 2.54)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e082ddc4-8393-4f8c-bb9b-575bbc077576")
+	)
+	(embedded_fonts no)
+	(model "/home/kaos/Documents/kaotec/electronics/customKiCad/custom3D/TP4056--3DModel-STEP-684600.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

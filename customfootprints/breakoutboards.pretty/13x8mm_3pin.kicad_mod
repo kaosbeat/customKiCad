@@ -1,0 +1,108 @@
+(footprint "13x8mm_3pin"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.27 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c84c33fb-6b83-4c27-bfc2-e0cff1a3d76c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "13x8mm_3pin"
+		(at 0 -1.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "04ac51fd-b550-450f-8cfa-471f5fd315c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "049059fc-47e2-4126-ab6a-40983e472c26")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94fd0f8f-2ba3-4f59-aac6-e326f85d43ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -6.858 -3.048)
+		(end 6.858 5.588)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Margin")
+		(uuid "320d5032-ea7c-44f2-8076-d26db24580a9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.81 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "df70dc26-4c96-4e96-8f8a-96b4081df826")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -5.08 1.27 90)
+		(size 4 3)
+		(drill oval 3 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "f22ec349-a15f-40b9-9c72-47e8efd27fc9")
+	)
+	(pad "2" thru_hole oval
+		(at 0 1.27 90)
+		(size 4 3)
+		(drill oval 3 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "0c372cb4-4264-4484-9ca9-379c90986fcf")
+	)
+	(pad "3" thru_hole oval
+		(at 5.08 1.27 90)
+		(size 4 3)
+		(drill oval 3 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "ce8c8baf-9809-4a79-9eea-16486a6562bf")
+	)
+	(embedded_fonts no)
+)
